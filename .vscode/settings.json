@@ -1,5 +1,21 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "node_modules": false,
+    "coverage": false,
+    "azurite-testdrive": false,
+    ".nyc_output": false,
+    "dist": false,
+    "typings": false,
+    "debug.log": false,
+    "*.vsix": false,
+    "*.tgz": false,
+    "__*": false,
+    "*.env": false,
+    "temp": false,
+    "**/.DS_Store.DS_Store": false,
+    "*.pem": false
+  }
 }
